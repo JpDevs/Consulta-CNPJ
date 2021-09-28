@@ -8,7 +8,7 @@
 
 <img src="https://i.imgur.com/72KzZ4L.png" alt="Consultador">
 
-> Essa aplicação consulta o CNPJ das empresas, e por meio da API pública receita-ws ela retorna alguns dados da empresa em questão, foi feita para que algumas pessoas possam estudar o funcionamento de uma API Json no PHP.
+> Essa aplicação consulta o CNPJ das empresas, e por meio da API pública receita-ws ela retorna alguns dados da empresa consultada. Foi feita para que algumas pessoas possam estudar o funcionamento de uma API Json no PHP.
 
 
 ## 💻 Pré-requisitos
