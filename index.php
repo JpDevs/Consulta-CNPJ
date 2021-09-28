@@ -70,7 +70,7 @@ include('api.php');
                         
                         <?php }  else { ?>
                             <br><br>
-                           <font color="red"><b>ERRO:</b></font><span> <?php echo $row['message']; ?></span>
+                           <span> <?php echo $row['message']; ?></span>
                             <?php } ?>
             </div>
             
