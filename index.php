@@ -28,7 +28,8 @@ include('api.php');
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-                <h1>Consultar CNPJ</h1>
+               <font color="red"><h4>JpDevs</h4></font>
+                <h2>Consultar CNPJ</h2>
                 <p class="lead">Insira abaixo o CNPJ a ser consultado</p>
                 <form method="post" action="" name="cnpj">
                     <div class="input-group mb-3">
