@@ -39,7 +39,7 @@ include('api.php');
                         <input type="tel" required name="cnpj" class="form-control"></input> </div>
                         <center><button name="enviar" type="submit" class="btn btn-success">Consultar</button></center>
                         </form>
-                       <?php if(isset($row)) { ?>
+                       <?php if(isset($row) && $row['status'] == 'OK') { ?>
                             <br>
                             <h4>Informações do CNPJ: <?php echo $input; ?></h4>
                         <b>Razão Social: </b> <span><?php echo $row['nome']; ?></span>
@@ -68,9 +68,12 @@ include('api.php');
                         <b>Município: </b><span><?php echo $row['municipio']; ?></span><br>
                         <b>Estado: </b><span><?php echo $row['uf']; ?></span>
                         
-                    
+                        <?php }  else { ?>
+                            <br><br>
+                           <font color="red"><b>ERRO:</b></font><span> <?php echo $row['message']; ?></span>
+                            <?php } ?>
             </div>
-            <?php } ?>
+            
         </div>
         
            <br><br>

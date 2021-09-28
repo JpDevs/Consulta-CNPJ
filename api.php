@@ -1,5 +1,5 @@
 <?php
-//error_reporting(0);
+error_reporting(0);
 if(isset($_POST['enviar'])) {
 $input = filter_input(INPUT_POST,'cnpj', FILTER_SANITIZE_STRING);
 //-
