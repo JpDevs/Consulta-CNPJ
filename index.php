@@ -36,7 +36,7 @@ include('api.php');
                         <div class="input-group-prepend">
                           <span class="input-group-text">CNPJ:</span>
                         </div>
-                        <input type="tel" required name="cnpj" class="form-control"></input> </div>
+                        <input type="tel" <?php if(isset($input)) { echo 'value="'.$input.'"'; } ?> required name="cnpj" class="form-control"></input> </div>
                         <center><button name="enviar" type="submit" class="btn btn-success">Consultar</button></center>
                         </form>
                        <?php if(isset($row) && $row['status'] == 'OK') { ?>
