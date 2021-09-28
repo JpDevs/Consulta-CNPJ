@@ -21,6 +21,6 @@ Antes de instalar, verifique se você atende aos seguintes requisitos:
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT . Veja o arquivo [LICENSE](LICENSE.md) para mais informações.
+Esse projeto está sob a licença MIT . Veja o arquivo LICENSE para mais informações.
 
 #### JpDevs
