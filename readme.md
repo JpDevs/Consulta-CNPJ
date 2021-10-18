@@ -10,6 +10,8 @@
 
 > Essa aplicação consulta o CNPJ das empresas, e por meio da API pública receita-ws ela retorna alguns dados da empresa consultada. Foi feita para que algumas pessoas possam estudar o funcionamento de uma API Json no PHP.
 
+Você pode ver ela em funcionamento <a href="https://tools.jpdevs.com.br/cnpj/">aqui</a>
+
 
 ## 💻 Pré-requisitos
 
