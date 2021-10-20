@@ -10,7 +10,7 @@ include('api.php');
         <meta name="author" content="" />
         <title>JpDevs - Consulta CNPJ (Open-Source)</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://tools.jpdevs.com.br/cnpj/css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
